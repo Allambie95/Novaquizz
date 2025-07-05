@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "UsuariosServiceApplication",
+            "request": "launch",
+            "mainClass": "com.novaquizz.usuarios_service.UsuariosServiceApplication",
+            "projectName": "usuarios-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-InventarioServiceApplication<inventario-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.novaquizz.inventario_service.InventarioServiceApplication",
+            "projectName": "inventario-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=56402 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=inventario-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CarritoServiceApplication<carrito-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.novaquizz.carrito_service.CarritoServiceApplication",
+            "projectName": "carrito-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
