@@ -26,3 +26,10 @@ Proyecto2/
 ├── carrito-service/
 ├── Scriptabla.sql
 └── .gitignore
+
+## Puertos
+
+-Usuario 8081
+-Inventario 8082
+-Carrito 8084
+-laragon 3306 default
